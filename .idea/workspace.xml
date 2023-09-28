@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="vcs">
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad2_Tarea/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad2_Tarea/.idea/MuinosJoseUnidad2_Tarea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad2_Tarea/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad2_Tarea/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad2_Tarea/desplazarBits.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad2_Tarea/tablasMultiplicar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="vcs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +83,7 @@
       <workItem from="1695937040774" duration="87000" />
       <workItem from="1695937478867" duration="3727000" />
       <workItem from="1695941324976" duration="1013000" />
-      <workItem from="1695942912125" duration="626000" />
+      <workItem from="1695942912125" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />
