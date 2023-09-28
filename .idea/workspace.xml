@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="" />
+    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio10a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unidad2/ejercicio10b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio 1/ejercicio1.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,19 +52,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "trunk",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/josem/_/_Repositorios/UDAW2AWDCjmc/Unidad2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\_\_Repositorios\UDAW2AWDCjmc\Unidad2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\_\_Repositorios\UDAW2AWDCjmc\Unidad2" />
+      <recent name="C:\Users\josem\_\_Repositorios\UDAW2AWDCjmc\Unidad2\js" />
+      <recent name="C:\Users\josem\_\_Repositorios\UDAW2AWDCjmc\Unidad2\html" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +88,8 @@
       <updated>1695114197166</updated>
       <workItem from="1695114199077" duration="665000" />
       <workItem from="1695114997593" duration="778000" />
+      <workItem from="1695937040774" duration="87000" />
+      <workItem from="1695937478867" duration="3582000" />
     </task>
     <servers />
   </component>

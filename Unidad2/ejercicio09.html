@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 09</title>
+</head>
+<body>
+<h1>Ejercicio 09</h1>
+</body>
+
+<script>
+    let respuesta = prompt("Introduce tu edad:");
+
+    switch (true) {
+        case (respuesta < 0):
+            alert("Edad incorrecta");
+            break;
+        case (respuesta <= 12):
+            alert("Niño");
+            break;
+        case (respuesta <= 26):
+            alert("Joven");
+            break;
+        case (respuesta <= 60):
+            alert("Adulto");
+            break;
+        default:
+            alert("Jubilado");
+    }
+</script>
+</html>
