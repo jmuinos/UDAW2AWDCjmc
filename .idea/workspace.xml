@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="vcs">
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio3JS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,16 +19,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jmuinos&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="87cb37c9-d58e-49c6-ae64-806119fc719a" />
+        <option name="url" value="https://github.com/jmuinos/UDAW2AWDCjmc.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,7 +70,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;trunk&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jose.muinoscalvelo/_Repositorios/UDAW2AWDCjmc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jose.muinoscalvelo/WebstormProjects/UDAW2AWDCjmc&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -92,6 +108,8 @@
       <workItem from="1696318856625" duration="5790000" />
       <workItem from="1696324780982" duration="26000" />
       <workItem from="1696324817524" duration="867000" />
+      <workItem from="1696506076838" duration="429000" />
+      <workItem from="1696506510125" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />
