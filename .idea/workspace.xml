@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="vcs">
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio3JS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/.idea/MuinosJoseUnidad3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio1.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio2.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad3/Ejercicio2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;trunk&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jose.muinoscalvelo/WebstormProjects/UDAW2AWDCjmc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josem/WebstormProjects/UDAW2AWDCjmc&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -110,6 +110,10 @@
       <workItem from="1696324817524" duration="867000" />
       <workItem from="1696506076838" duration="429000" />
       <workItem from="1696506510125" duration="2990000" />
+      <workItem from="1697230376193" duration="128000" />
+      <workItem from="1697230509983" duration="2000" />
+      <workItem from="1697230561438" duration="34000" />
+      <workItem from="1697230631901" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ejercicio 4</title>
+</head>
+<body class="p-5">
+
+<div class="container">
+    <h1 class="mb-4">Medidas Geométricas</h1>
+    <div class="mb-3">
+        <label for="radio" class="form-label">Ingrese el valor del radio:</label>
+        <input type="number" class="form-control" id="radio">
+    </div>
+    <button onclick="calcular()" class="btn btn-primary mb-4">Calcular</button>
+
+    <h2 class="mb-3">Resultados</h2>
+    <p id="resultados">...</p>
+</div>
+
+<script>
+    function calcular() {
+        let radio = document.getElementById('radio').value;
+        let pi = Math.PI;
+
+        let diametro = 2 * radio;
+        let perimetro = 2 * pi * radio;
+        let areaCirculo = pi * Math.pow(radio, 2);
+        let areaEsfera = 4 * pi * Math.pow(radio, 2);
+        let volumenEsfera = (4/3) * pi * Math.pow(radio, 3);
+
+        document.getElementById('resultados').innerHTML =
+            `Radio: ${radio} cm <br>
+                 Diámetro: ${diametro.toFixed(2)} cm <br>
+                 Perímetro: ${perimetro.toFixed(2)} cm <br>
+                 Área del Círculo: ${areaCirculo.toFixed(2)} cm² <br>
+                 Área de la Esfera: ${areaEsfera.toFixed(2)} cm² <br>
+                 Volumen de la Esfera: ${volumenEsfera.toFixed(2)} cm³`;
+    }
+</script>
+
+</body>
+</html>

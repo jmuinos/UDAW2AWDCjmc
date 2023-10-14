@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ejercicio 8</title>
+</head>
+<body class="p-5">
+
+<div class="container">
+    <h1 class="mb-4">Desglose de Información</h1>
+    <div class="mb-3">
+        <label for="cadena" class="form-label"><span class="h5">Ingrese los datos siguiendo el formato, separando con ":"</span> <br><span class="h6">Formato:</span> Nombre: Apellidos: Teléfono: Correo electrónico: Código-postal</label>
+        <input type="text" class="form-control" id="cadena">
+    </div>
+    <button onclick="mostrarInformacion()" class="btn btn-primary mb-4">Mostrar Información</button>
+
+    <h2 class="mb-3">Resultados</h2>
+    <p id="resultados">...</p>
+</div>
+
+<script>
+    function mostrarInformacion() {
+        let cadena = document.getElementById('cadena').value;
+        let partes = cadena.split(':');
+
+        let nombre = partes[0];
+        let apellidos = partes[1];
+        let telefono = partes[2];
+        let email = partes[3];
+        let codigoPostal = partes[4];
+
+        let servidorEmail = email.split('@')[1];
+
+        document.getElementById('resultados').innerHTML =
+            `Nombre: ${nombre} <br>
+                 Apellidos: ${apellidos} <br>
+                 Teléfono: ${telefono} <br>
+                 Email: ${email} <br>
+                 Código Postal: ${codigoPostal} <br>
+                 Servidor de Email: ${servidorEmail}`;
+    }
+</script>
+
+</body>
+</html>
