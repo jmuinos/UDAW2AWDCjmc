@@ -1,12 +1,12 @@
 import createListHtml from './util-functions'
-function showCountriesDefault(list){
+export function showCountriesDefault(list){
     return createListHtml(list);
 }
-function showCountriesReverse(lista){
+export function showCountriesReverse(lista){
     let listaReverse = lista.reverse();
     return createListHtml(listaReverse);
 }
-function showCountriesAlphabetic(lista){
+export function showCountriesAlphabetic(lista){
     let listaSorted = lista.sort();
     return createListHtml(listaSorted);
 }
