@@ -9,12 +9,16 @@
 	<body>
 		<div class="container mt-5">
 			<h2>Gestión de Colección de Discos</h2>
-			<button onclick="mostrarNumeroDiscos()" class="btn btn-info">Mostrar Número de Discos</button>
-			<button onclick="mostrarTablaDiscos()" class="btn btn-info">Mostrar Tabla de Discos</button>
-			<button onclick="mostrarDiscosPorAnno()" class="btn btn-secondary">Mostrar Discos por Año</button>
-			<button onclick="anadirDisco()" class="btn btn-success">Añadir Disco</button>
-			<button onclick="borrarDisco()" class="btn btn-danger">Borrar Disco</button>
-			<button onclick="consultarDisco()" class="btn btn-warning">Consultar Disco</button>
+			<div class="mb-2">
+				<button onclick="mostrarNumeroDiscos()" class="btn btn-info">Mostrar Número de Discos</button>
+				<button onclick="mostrarTablaDiscos()" class="btn btn-info">Mostrar Tabla de Discos</button>
+				<button onclick="mostrarDiscosPorAnno()" class="btn btn-secondary">Mostrar Discos por Año</button>
+			</div>
+			<div class="mb-2">
+				<button onclick="anadirDisco()" class="btn btn-success">Añadir Disco</button>
+				<button onclick="borrarDisco()" class="btn btn-danger">Borrar Disco</button>
+				<button onclick="consultarDisco()" class="btn btn-warning">Consultar Disco</button>
+			</div>
 			<div id="resultado" class="mt-4"></div>
 		</div>
 		

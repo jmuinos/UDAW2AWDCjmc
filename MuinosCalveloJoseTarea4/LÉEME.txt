@@ -1,0 +1,4 @@
+El programa funciona correctamente, pero al hacer Debug (al menos en WebStorm me está ocurriendo) salta el típico error de CORS 
+con las CDN de Bootstrap 5.
+
+Al hacer Debug en la consola de DevTools no salta el error de CORS, por lo que en principio debería estar funcionando correctamente.

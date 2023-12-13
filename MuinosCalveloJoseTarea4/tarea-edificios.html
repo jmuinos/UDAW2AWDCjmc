@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tarea 4 (José Muiños)</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		      crossorigin="anonymous">
+	</head>
+	<body class="p-5">
+		<div class="container mt-4">
+			<h1 class="text-center mb-4">Gestión de Edificios</h1>
+			
+			<!-- Crear Nuevo Edificio -->
+			<div class="card mb-3">
+				<div class="card-header">Crear Nuevo Edificio</div>
+				<form class="card-body form-group">
+					<div class="mb-3">
+						<input type="text"
+						       id="calle"
+						       class="form-control"
+						       placeholder="Calle en la que está el edificio"
+						       aria-label="Calle en la que está el edificio">
+					</div>
+					<div class="mb-3">
+						<input type="number"
+						       id="numero"
+						       class="form-control"
+						       placeholder="Número del edificio"
+						       aria-label="Número del edificio">
+					</div>
+					<div class="mb-3">
+						<input type="text"
+						       id="codigoPostal"
+						       class="form-control"
+						       placeholder="Código Postal que le corresponde al edificio"
+						       aria-label="Código Postal que le corresponde al edificio">
+					</div>
+					<div class="mb-3">
+						<input type="number"
+						       id="numeroPlantas"
+						       class="form-control"
+						       placeholder="Número de plantas del edificio"
+						       aria-label="Número de plantas del edificio">
+					</div>
+					<button type="button" id="crearEdificioBtn" class="btn btn-primary">Crear Edificio</button>
+				</form>
+			</div>
+			
+			<!-- Modificar Edificio Existente -->
+			<div class="card mb-3">
+				<div class="card-header">Seleccionar Edificio Existente</div>
+				<form class="card-body form-group">
+					<select id="selector-edificio"
+					        class="form-select mb-3"
+					        aria-label="Seleccionar edificio de la lista">
+						<option value="" disabled selected>Seleccionar</option>
+						<!-- El resto de options se llenan dinámicamente -->
+					</select>
+				</form>
+			</div>
+			
+			<!-- Agregar Plantas y Puertas -->
+			<div id="card-agregar-plantas-puertas" class="card mb-3 d-none">
+				<div class="card-header">Agregar Plantas y Puertas</div>
+				<form class="card-body form-group">
+					<div class="mb-3">
+						<input type="number"
+						       id="numPlantas"
+						       class="form-control"
+						       placeholder="Número de plantas a añadir"
+						       aria-label="Número de plantas a añadir">
+					</div>
+					<div class="mb-3">
+						<input type="number"
+						       id="numPuertas"
+						       class="form-control"
+						       placeholder="Número de puertas a añadir a cada nueva planta"
+						       aria-label="Número de puertas a añadir a cada nueva planta">
+					</div>
+					<button type="button"
+					        id="agregarPlantasPuertasBtn"
+					        class="btn btn-success">Agregar Plantas y Puertas
+					</button>
+				</form>
+			</div>
+			
+			<!-- Agregar Propietario -->
+			<div id="card-agregar-propietario" class="card d-none">
+				<div class="card-header">Agregar Propietario</div>
+				<form class="card-body form-group">
+					<div class="mb-3">
+						<input type="text"
+						       id="nombrePropietario"
+						       class="form-control"
+						       placeholder="Nombre del propietario a añadir"
+						       aria-label="Nombre del propietario a añadir">
+					</div>
+					<div class="mb-3">
+						<input type="number"
+						       id="plantaPropietario"
+						       class="form-control"
+						       placeholder="Número de planta en que se encuentra la puerta"
+						       aria-label="Número de planta en que se encuentra la puerta">
+					</div>
+					<div class="mb-3">
+						<input type="number"
+						       id="puertaPropietario"
+						       class="form-control"
+						       placeholder="Número de puerta cuyo propietario será modificado"
+						       aria-label="Número de puerta cuyo propietario será modificado">
+					</div>
+					<button type="button"
+					        id="agregarPropietarioBtn"
+					        class="btn btn-info">Agregar Propietario
+					</button>
+				</form>
+			</div>
+			
+			<!-- Información del Edificio -->
+			<div id="card-edificio-info" class="card mt-4 d-none">
+				<div class="card-header">Información del Edificio</div>
+				<div class="card-body" id="infoEdificio">
+					<!-- Aquí se mostrará la información del edificio seleccionado -->
+				</div>
+			</div>
+		</div>
+		
+		<script type="module" src="tarea-edificios.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		        crossorigin="anonymous"></script>
+	</body>
+</html>
