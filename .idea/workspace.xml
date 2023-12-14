@@ -5,27 +5,85 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="vcs">
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/.idea/MuinosCalveloJoseTarea4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/.idea/runConfigurations/tarea_edificios_html.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/Edificio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/LÉEME.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/Planta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/Puerta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/tarea-edificios.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea4/tarea-edificios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 1/Ejercicio1UD5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 1/Ejercicio1UD5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 1/RATON COORDENADAS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 2/Ejercicio2UD5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 2/Ejercicio2UD5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 2/SALUDAR CADA TRES SEGUNDOS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 3/Ejercicio3UD5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 3/Ejercicio3UD5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 3/LETRA DNI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 4/Ejercicio4UD5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 4/Ejercicio4UD5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 4/SORTEO LOTERÍA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 4/ejercicio4UD5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/DISCOS FORMULARIO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/DiscoAux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/Ejercicio5UD5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/Ejercicio5UD5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/Ejercicio6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/Ejercicio6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/FernandezAlejandroUnidad5.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e01/e01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e01/e01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e02/e02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e02/e02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e03/e03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e03/e03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e04/e04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e04/e04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e05/e05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e05/e05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e05/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/e06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/e06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/juegoView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e06/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e07/e07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e07/e07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e07/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e08/correct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e08/e08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e08/e08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e08/incorrect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e08/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e09/e09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e09/e09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e09/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e09/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e09/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e09/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e09/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e10/Cliente.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e10/e10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e10/e10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e10/e10pass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e10/imagen1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e10/masInfoRecordar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e10/paginaInicio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e10/passView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e10/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e11/e11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e11/e11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UD5/e11/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Plantillas HTML+Bootstrap/PlantillaBase.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad4/Ejercicio 4/Ejercicio4.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad4/Ejercicio 4/Ejercicio4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Muinos_Calvelo_Jose_DWEC02_Tarea/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea2/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Muinos_Calvelo_Jose_DWEC02_Tarea/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea2/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Muinos_Calvelo_Jose_DWEC02_Tarea/.idea/Muinos_Calvelo_Jose_DWEC02_Tarea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea2/.idea/Muinos_Calvelo_Jose_DWEC02_Tarea.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Muinos_Calvelo_Jose_DWEC02_Tarea/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea2/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Muinos_Calvelo_Jose_DWEC02_Tarea/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Muinos_Calvelo_Jose_DWEC02_Tarea/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Muinos_Calvelo_Jose_DWEC02_Tarea/desplazarBits.js" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea2/desplazarBits.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Muinos_Calvelo_Jose_DWEC02_Tarea/tablasMultiplicar.js" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea2/tablasMultiplicar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad4/Ejercicio 4/Ejercicio4.js" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad4/Ejercicio 4/Ejercicio4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad4/Ejercicio 4/disco.js" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad4/Ejercicio 4/disco.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +94,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -77,46 +136,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;trunk&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jose.muinoscalvelo/WebstormProjects/MuinosCalveloJoseTarea4&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "trunk",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 5",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\josem\_\_Repositorios\UDAW2AWDCjmc\Unidad2" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 5" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 4" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 3" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 2" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\_Plantillas HTML+Bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5" />
       <recent name="C:\Users\josem\_\_Repositorios\UDAW2AWDCjmc\Unidad2" />
       <recent name="C:\Users\josem\_\_Repositorios\UDAW2AWDCjmc\Unidad2\js" />
       <recent name="C:\Users\josem\_\_Repositorios\UDAW2AWDCjmc\Unidad2\html" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Ejercicio4.html">
+  <component name="RunManager" selected="JavaScript Debug.Ejercicio6.html">
+    <configuration name="Ejercicio4UD5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 4/Ejercicio4UD5.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Ejercicio4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad4/Ejercicio 4/Ejercicio4.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tarea-edificios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosCalveloJoseTarea4/tarea-edificios.html" useBuiltInWebServerPort="true">
+    <configuration name="Ejercicio5UD5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 5/Ejercicio5UD5.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Ejercicio6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 6/Ejercicio6.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="e05.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/UD5/e05/e05.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Ejercicio6.html" />
+        <item itemvalue="JavaScript Debug.Ejercicio5UD5.html" />
+        <item itemvalue="JavaScript Debug.e05.html" />
         <item itemvalue="JavaScript Debug.Ejercicio4.html" />
-        <item itemvalue="JavaScript Debug.tarea-edificios.html" />
+        <item itemvalue="JavaScript Debug.Ejercicio4UD5.html" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +226,9 @@
       <workItem from="1698134902524" duration="31000" />
       <workItem from="1701282934566" duration="813000" />
       <workItem from="1702471185034" duration="1760000" />
+      <workItem from="1702517294408" duration="69000" />
+      <workItem from="1702517381710" duration="1202000" />
+      <workItem from="1702519625512" duration="28602000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />

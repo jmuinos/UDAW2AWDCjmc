@@ -43,9 +43,7 @@ function anadirDisco() {
 	let anno = parseInt(prompt("Año de publicación:"));
 	let tipoMusica = prompt("Tipo de música (rock, pop, punk, indie):");
 	let localizacion = parseInt(prompt("Número de estantería:"));
-	let caratula = prompt("Nombre del archivo de la carátula (deja en blanco para 'imagen.png'):");
-	
-	let nuevoDisco = new Disco(nombre, grupo, anno, tipoMusica, localizacion, false, caratula || 'imagen.png');
+	let nuevoDisco = new DiscoAux(nombre, grupo, anno, tipoMusica, localizacion, false);
 	
 	// Determina si el disco se añadirá al principio o al final del array
 	let posicion = prompt("¿Quieres añadir al principio o al final de la colección? (principio/final)");
@@ -79,7 +77,7 @@ function consultarDisco() {
 	
 	// Muestra la información del disco encontrado o un mensaje si no se encuentra
 	if (discoEncontrado) alert(discoEncontrado.mostrarInformacion());
-	else alert("Disco no encontrado.");
+	else alert("DiscoAux no encontrado.");
 }
 
 function mostrarDiscosPorAnno() {

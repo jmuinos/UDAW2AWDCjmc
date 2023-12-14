@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		      crossorigin="anonymous">
+		<title>Ejercicio 5</title>
+	</head>
+	<body>
+		<div class="container mt-5">
+			<h2>Formulario de Discos</h2>
+			<form id="formularioDiscos" name="formularioDiscos" action="#" method="post" class="mb-5">
+				<fieldset id="datosDisco" name="datosDisco">
+					<div class="mb-3">
+						<label for="nombreDisco" class="form-label">Nombre del DiscoAux</label>
+						<input type="text" class="form-control" id="nombreDisco" name="nombreDisco" required>
+					</div>
+					<div class="mb-3">
+						<label for="grupoMusica" class="form-label">Grupo de música o cantante</label>
+						<input type="text" class="form-control" id="grupoMusica" name="grupoMusica" required>
+					</div>
+					<div class="mb-3">
+						<label for="anoPublicacion" class="form-label">Año de publicación</label>
+						<input type="text" class="form-control" id="anoPublicacion" name="anoPublicacion" title="4 dígitos numéricos"
+						       required>
+					</div>
+					<div class="mb-3">
+						<label for="localizacion" class="form-label">Localización (número de estantería)</label>
+						<input type="text" class="form-control" id="localizacion" name="localizacion" value="">
+					</div>
+				</fieldset>
+				<button type="submit" class="btn btn-primary">Añadir Disco</button>
+			</form>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Grupo</th>
+						<th>Año</th>
+						<th>Localización</th>
+					</tr>
+				</thead>
+				<tbody id="listaDiscos"></tbody>
+			</table>
+		</div>
+		<script type="module" src="Ejercicio5UD5.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		        crossorigin="anonymous"></script>
+		
+	</body>
+</html>
+
