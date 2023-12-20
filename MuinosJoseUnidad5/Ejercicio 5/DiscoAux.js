@@ -1,12 +1,9 @@
 export class DiscoAux {
-	constructor(nombre, grupo, ano, tipoMusica, localizacion) {
-		this.nombre = nombre;
-		this.grupo = grupo;
-		this.ano = ano;
+	constructor(nombreDisco, nombreGrupo, anoPublicacion, generoMusical, localizacion) {
+		this.nombre = nombreDisco;
+		this.grupo = nombreGrupo;
+		this.ano = anoPublicacion;
+		this.generoMusical = generoMusical;
 		this.localizacion = localizacion;
-	}
-	
-	mostrarInformacion() {
-		return `Nombre: ${this.nombre}, Grupo: ${this.grupo}, Año: ${this.ano}, Localización: ${this.localizacion}`;
 	}
 }

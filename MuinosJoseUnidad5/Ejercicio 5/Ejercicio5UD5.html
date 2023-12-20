@@ -1,43 +1,81 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		      crossorigin="anonymous">
 		<title>Ejercicio 5</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+		      crossorigin="anonymous">
 	</head>
 	<body>
-		<div class="container mt-5">
+		<div class="container my-5">
 			<h2>Formulario de Discos</h2>
-			<form id="formularioDiscos" name="formularioDiscos" action="#" method="post" class="mb-5">
-				<fieldset id="datosDisco" name="datosDisco">
-					<div class="mb-3">
-						<label for="nombreDisco" class="form-label">Nombre del DiscoAux</label>
-						<input type="text" class="form-control" id="nombreDisco" name="nombreDisco" required>
-					</div>
-					<div class="mb-3">
-						<label for="grupoMusica" class="form-label">Grupo de música o cantante</label>
-						<input type="text" class="form-control" id="grupoMusica" name="grupoMusica" required>
-					</div>
-					<div class="mb-3">
-						<label for="anoPublicacion" class="form-label">Año de publicación</label>
-						<input type="text" class="form-control" id="anoPublicacion" name="anoPublicacion" title="4 dígitos numéricos"
+			<form class="row g-3 needs-validation" method="post" action="" novalidate>
+				
+				<div class="col-md-4">
+					<label for="nombreDisco" class="form-label">Título</label>
+					<input type="text" class="form-control" id="nombreDisco" name="nombreDisco" maxlength="20"
+					       placeholder="Ej: Highway to Hell" required>
+					<div id="nombreDiscoInvalid" class="invalid-feedback"></div>
+				</div>
+				
+				<div class="col-md-4">
+					<label for="nombreGrupo" class="form-label">Grupo o Cantante</label>
+					<input type="text" class="form-control" id="nombreGrupo" name="nombreGrupo" maxlength="20"
+					       placeholder="Ej: ACDC"
+					       required>
+					<div id="nombreGrupoInvalid" class="invalid-feedback"></div>
+				</div>
+				
+				<div class="col-md-4">
+					<label for="anoPublicacion" class="form-label">Año de Publicación</label>
+					<input type="text" class="form-control" id="anoPublicacion" name="anoPublicacion"
+					       pattern="^(19[0-9][0-9]|20[0-1][0-9]|202[0-3])$"
+					       placeholder="Ej: 2001">
+					<div id="anoPublicacionInvalid" class="invalid-feedback"></div>
+				</div>
+				
+				<div class="col-md-3">
+					<label for="generoMusical" class="form-label">Género Musical</label>
+					<select class="form-select" id="generoMusical">
+						<option selected disabled value="">Elegir...</option>
+						<option>Rock</option>
+						<option>Pop</option>
+						<option>Funk</option>
+					</select>
+				</div>
+				
+				<div class="col-md-4">
+					<label for="localizacionDisco" class="form-label">Número de estantería</label>
+					<input type="text" class="form-control" id="localizacionDisco" name="localizacionDisco"
+					       pattern="[0-9]{0,}" placeholder="Número de estantería...">
+					<div id="localizacionDiscoInvalid" class="invalid-feedback"></div>
+				</div>
+				
+				<div class="col-12">
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" value="" id="condiciones" name="condiciones"
 						       required>
+						<label class="form-check-label" for="condiciones">Aceptar condiciones del servicio.</label>
+						<div id="condicionesInvalid" class="invalid-feedback">
+							Debes aceptar las condiciones del servicio.
+						</div>
 					</div>
-					<div class="mb-3">
-						<label for="localizacion" class="form-label">Localización (número de estantería)</label>
-						<input type="text" class="form-control" id="localizacion" name="localizacion" value="">
-					</div>
-				</fieldset>
-				<button type="submit" class="btn btn-primary">Añadir Disco</button>
+				</div>
+				<div class="col-12">
+					<button class="btn btn-primary" type="submit">Enviar formulario</button>
+				</div>
 			</form>
-			<table class="table">
+		</div>
+		<div class="container">
+			<table class="table table-hover">
 				<thead>
 					<tr>
 						<th>Nombre</th>
 						<th>Grupo</th>
 						<th>Año</th>
+						<th>Género</th>
 						<th>Localización</th>
 					</tr>
 				</thead>
@@ -48,7 +86,8 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 		        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 		        crossorigin="anonymous"></script>
-		
+	
+	
 	</body>
 </html>
 

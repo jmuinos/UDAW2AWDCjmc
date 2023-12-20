@@ -1,44 +1,76 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		      crossorigin="anonymous">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Ejercicio 6</title>
-		
-		<style>
-			img {
-				width: 120px;
-				height: 190px;
-				object-fit: cover;
-			}
-			td {
-				width: 120px;
-				height: 190px;
-				background-color: red;
-			}
-		</style>
+		<link href="styles.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+		      crossorigin="anonymous">
 	</head>
-	<body>
-		<form id="formJugador" name="formJugador" class="m-3">
-			<fieldset id="datosJugador" name="datosJugador" class="border p-3">
-				<legend>Datos del Jugador</legend>
-				<label for="nombreJugador">Nombre del Jugador:</label>
-				<input type="text" id="nombreJugador" name="nombreJugador" class="form-control mb-2" required>
-				<input type="submit" value="Iniciar Juego" class="btn btn-primary">
-				<div id="visitasJugador" class="mt-2"></div>
-			</fieldset>
-		</form>
+	<body class="vh-100 min-vw-100 m-0 ps-1 py-3">
+		<!-- Modal para cambiar el nombre del usuario y hacer reset de cookies -->
+		<div class="modal fade" id="modal-usuario" tabindex="-1" aria-labelledby="cambiar-usuario-modal"
+		     aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h1 class="modal-title fs-5 fw-bolder" id="cambiar-usuario-modal">Nuevo Usuario</h1>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="mb-3">
+								<label for="user-name-modal" class="col-form-label fw-bold">Nombre:</label>
+								<input type="text" class="form-control" id="user-name-modal"
+								       placeholder="Ej: usuario123">
+							</div>
+							<p class="fst-italic bg-warning-subtle p-2">Ten en cuenta que al crear un nuevo usuario se
+							                                            borrarán los datos del usuario anterior.</p>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+						<button type="button" class="btn btn-primary" id="btn-guardar-usuario">Guardar usuario</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		
-		<table id="tablaJuego" class="table table-bordered m-3">
-			<!-- Las celdas del juego serán generadas por JS -->
-		</table>
-		<div id="contadorAciertos" class="m-3">Aciertos: <span id="totalAciertos">0</span></div>
+		<div class="row row-cols-sm-1 p-0 m-0 h-100">
+			<div id="tablero" class="col-md-9 col-lg-10 d-inline-grid gap-3 m-0 p-0 h-100"></div>
+			<!-- Sección donde se mostrará la información sobre el usuario y elementos de UI del juego. -->
+			<div id="juegoInfo" class="col-md-3 col-lg-2 m-0 px-3">
+				<div class="card h-100 bg-dark-subtle rounded-2">
+					<img src="images/fruits-logo.png" class="card-img rounded card" alt="Logo de Frutas">
+					<div class="card-header">
+						<h5 class="card-title">Fruits</h5>
+						<p class="card-text">Levanta las cartas para encontrar parejas de frutas y ganar la partida.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item fw-bold">Usuario: <span id="usuario-nombre" class="fw-normal"></span>
+						</li>
+						<li class="list-group-item fw-bold">Aciertos: <span id="usuario-aciertos"></span></li>
+						<li class="list-group-item fw-bold">Visitas: <span id="usuario-visitas"></span></li>
+					</ul>
+					<div class="card-footer">
+						<ul class="list-group">
+							<li id="nueva-partida-btn" class="btn btn-primary mb-2">Nueva Partida</li>
+							<li id="cambiar-usuario-btn" class="btn btn-secondary mb-2" data-bs-toggle="modal"
+							    data-bs-target="#modal-usuario" data-bs-whatever="Usuario">Cambiar Usuario
+							</li>
+							<li id="salir-btn" class="btn btn-dark mb-2">Salir</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		
+		<script type="module" src="js/ejercicio6.js"></script>
+		<script type="text/javascript" src="js/cartas.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 		        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 		        crossorigin="anonymous"></script>
-		<script type="text/javascript" src="Ejercicio6.js" defer></script>
 	</body>
 </html>

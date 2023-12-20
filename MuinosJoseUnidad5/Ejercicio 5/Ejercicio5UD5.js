@@ -1,115 +1,77 @@
 import {DiscoAux} from "./DiscoAux.js";
 
-let arrayDiscos = [];
+const arrayDiscos = [];
+let arrayInputs = [];
 
-document.getElementById('formularioDiscos').addEventListener('submit', function (event) {
-	event.preventDefault();
+document.addEventListener('DOMContentLoaded', () => {
+	const form = document.querySelector('.needs-validation');
+	arrayInputs = [...form.querySelectorAll('input')];
+	const generoMusical = document.getElementById('generoMusical');
 	
-	// Realizar la validación y aplicar estilos en el envío del formulario.
-	let isFormValid = validarTodosLosCampos();
-	
-	
-	// Si la validación es exitosa, crea un nuevo DiscoAux
-	if (isFormValid) {
-		let nombre = document.getElementById('nombreDisco').value;
-		let grupo = document.getElementById('grupoMusica').value;
-		let anno = parseInt(document.getElementById('anoPublicacion').value);
-		let tipoMusica = document.getElementById('tipoMusica').value;
-		let localizacion = parseInt(document.getElementById('localizacion').value);
-		
-		let nuevoDisco = new DiscoAux(nombre, grupo, anno, tipoMusica, localizacion);
-		arrayDiscos.push(nuevoDisco);
-		addDiscoTableRow();
-	}
+	form.addEventListener('submit', event => {
+		event.preventDefault();
+		if (!form.checkValidity()) {
+			event.stopPropagation();
+			validacionCustom(arrayInputs);
+		} else {
+			const nuevoDisco = new DiscoAux(
+				arrayInputs[0].value,
+				arrayInputs[1].value,
+				arrayInputs[2].value,
+				generoMusical.value,
+				arrayInputs[3].value
+			);
+			arrayDiscos.push(nuevoDisco);
+			addDiscoTableRow();
+		}
+		form.classList.add('was-validated');
+	});
 });
 
-/**
- * Crea una table row por cada disco que hay en la lista de discos.
- */
+function validacionCustom(inputArray) {
+	inputArray.forEach(input => {
+		const inputElement = document.getElementById(input.name);
+		const errorContainer = document.getElementById(`${input.name}Invalid`);
+		const value = inputElement.value;
+		
+		switch (input.name) {
+			case 'nombreDisco':
+			case 'nombreGrupo':
+				if (!value) {
+					errorContainer.innerText = "El campo no puede estar vacío.";
+				}
+				break;
+			case 'anoPublicacion':
+				const ano = parseInt(value);
+				const anoActual = new Date().getFullYear();
+				if (isNaN(ano) || ano < 1900 || ano > anoActual) {
+					errorContainer.innerText = "El año debe ser un número entero y estar entre 1900 y 2023).";
+				}
+				break;
+			case 'localizacionDisco':
+				if (isNaN(parseInt(value))) {
+					errorContainer.innerText = "La estantería debe ser un número entero.";
+				}
+				break;
+			case 'condiciones':
+				if (!input.checked) {
+					errorContainer.innerText = "Debes aceptar las condiciones.";
+				}
+				break;
+		}
+	});
+}
+
 function addDiscoTableRow() {
 	let tabla = '';
-	arrayDiscos.forEach(disco => {
-		tabla += `<tr>
-                      <td>${disco.nombre}</td>
-                      <td>${disco.grupo}</td>
-                      <td>${disco.ano}</td>
-                      <td>${disco.localizacion}</td>
-                 </tr>`;
-	});
+	tabla = arrayDiscos.map(disco => `
+        <tr>
+            <td >${disco.nombre}</td>
+            <td>${disco.grupo}</td>
+            <td>${disco.ano}</td>
+            <td>${disco.generoMusical}</td>
+            <td>${disco.localizacion}</td>
+        </tr>
+    `).join('');
 	document.getElementById('listaDiscos').innerHTML = tabla;
 }
-
-function validarTodosLosCampos() {
-	return validarCampo("nombreDisco", validarCadenaMax20) &&
-		validarCampo("grupoMusica", validarCadenaMax20) &&
-		validarCampo("anoPublicacion", validarAnoPublicacion) &&
-		validarCampo("localizacion", validarLocalizacion);
-}
-
-function validarCampo(nombreInput, nombreFuncionDeValidacion) {
-	const inputElement = document.getElementById(nombreInput);
-	const isValid = nombreFuncionDeValidacion(inputElement.value);
-	aplicarEstilosDeValidacion(inputElement, isValid);
-	return isValid;
-}
-
-function aplicarEstilosDeValidacion(inputElement, isValid) {
-	if (!isValid) {
-		inputElement.labels[0].classList.add('text-danger');
-		inputElement.classList.add('is-invalid');
-	} else {
-		inputElement.labels[0].classList.remove('text-danger');
-		inputElement.classList.remove('is-invalid');
-	}
-}
-
-// Añadir event listeners para la validación en tiempo real.
-["nombreDisco", "grupoMusica", "anoPublicacion", "localizacion"].forEach(id => {
-	const inputElement = document.getElementById(id);
-	inputElement.addEventListener("input", function () {
-		validarCampo(id, getFuncionDeValidacion(id));
-	});
-});
-
-function getFuncionDeValidacion(id) {
-	switch (id) {
-		case "nombreDisco":
-		case "grupoMusica":
-			return validarCadenaMax20;
-		case "anoPublicacion":
-			return validarAnoPublicacion;
-		case "localizacion":
-			return validarLocalizacion;
-		default:
-			return () => true; // Por defecto, una función que siempre valida a true.
-	}
-}
-
-/**
- * Se verifica que la cadena recibida no esté vacía y que no tenga más de 20 caracteres.
- * Se usa tanto para Nombre del Disco como para Nombre del Grupo Musical
- * @param cadena
- * @returns {boolean}
- */
-function validarCadenaMax20(cadena) {
-	return /^.{0,20}$/.test(cadena);
-}
-
-/**
- * Se verifica que ano tenga 4 caracteres numéricos
- * @param ano
- * @returns {boolean}
- */
-function validarAnoPublicacion(ano) {
-	return /^\d{0,4}$/.test(ano);
-}
-
-/**
- *  Se verifica si el campo está vacío o si es un número
- * @param localizacion
- * @returns {boolean}
- */
-function validarLocalizacion(localizacion) {
-	return /^\d*$/.test(localizacion);
-}
-
