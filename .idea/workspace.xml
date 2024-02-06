@@ -4,45 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="Puta mierda">
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea5/cookies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea5/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea5/tareaUD5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea5/tareaUD5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosCalveloJoseTarea5/validaciones.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/.idea/MuinosJoseUnidad5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/.idea/Ejercicio 5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/.idea/Ejercicio 6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/images/frambuesa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/images/fresa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/images/fruits-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/images/manzana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/images/naranja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/images/piña.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/images/platano.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/images/poker-table.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/js/cookies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 1/RATON COORDENADAS" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/js/ejercicio6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 2/SALUDAR CADA TRES SEGUNDOS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 3/LETRA DNI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 4/SORTEO LOTERÍA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/DISCOS FORMULARIO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/DiscoAux.js" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/DiscoAux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/Ejercicio5UD5.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/Ejercicio5UD5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/Ejercicio5UD5.js" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 5/Ejercicio5UD5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/Ejercicio6.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/Ejercicio6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/Ejercicio6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/img6.png" beforeDir="false" />
+    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="AVBEACON FRONT">
+      <change afterPath="$PROJECT_DIR$/AVBEACON/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/LÉEME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/html/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/html/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/html/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/html/fragments/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/html/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/html/professionals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/html/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/html/sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/ampliar-contactos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/ampliar-redes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/bosque-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/chat-asistencia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/clapperboard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/film.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/home-bg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/passion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/projects/echopixel.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/projects/infinitybroadcast.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/projects/lunina.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/projects/streamline.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/projects/visualwave.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/team.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/team/Gabriella.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/team/Mike.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/team/Nina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/users/Daniela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/users/Harry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/users/Javi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/users/Maria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/users/Michaela.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/images/users/Nicky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/js/loadFragments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AVBEACON/js/themeSettings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +112,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "trunk",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 6",
+    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc/AVBEACON",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -121,11 +125,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 6\js" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 6\images" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 5" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 4" />
-      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 6\js" />
@@ -200,6 +204,7 @@
       <workItem from="1702937571415" duration="10189000" />
       <workItem from="1703004848401" duration="2909000" />
       <workItem from="1703016623638" duration="5412000" />
+      <workItem from="1707209691850" duration="164000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />
@@ -247,6 +252,7 @@
     <MESSAGE value="Ejercicios Unidad 2 -&gt; terminados" />
     <MESSAGE value="vcs" />
     <MESSAGE value="Puta mierda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Puta mierda" />
+    <MESSAGE value="AVBEACON FRONT" />
+    <option name="LAST_COMMIT_MESSAGE" value="AVBEACON FRONT" />
   </component>
 </project>

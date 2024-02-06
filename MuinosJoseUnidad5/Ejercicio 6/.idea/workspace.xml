@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6beff80d-77ca-4ed9-a1fd-f8c08c73b0f4" name="Changes" comment="5.6 acabado &#10;12h putas horas.">
-      <change beforePath="$PROJECT_DIR$/js/cartas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/cartas.js" afterDir="false" />
+    <list default="true" id="6beff80d-77ca-4ed9-a1fd-f8c08c73b0f4" name="Changes" comment="5.6 acabado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,7 @@
       <workItem from="1703029238710" duration="819000" />
       <workItem from="1703041510418" duration="9143000" />
       <workItem from="1703050771071" duration="5819000" />
+      <workItem from="1703079906586" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="5.6 acabado &#10;12h putas horas.">
       <option name="closed" value="true" />
@@ -90,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703056392202</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="5.6 acabado">
+      <option name="closed" value="true" />
+      <created>1703079945207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703079945207</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +108,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="5.6 acabado &#10;12h putas horas." />
-    <option name="LAST_COMMIT_MESSAGE" value="5.6 acabado &#10;12h putas horas." />
+    <MESSAGE value="5.6 acabado" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.6 acabado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Ejercicio_6$Ejercicio6_html.dat" NAME="Ejercicio6.html Coverage Results" MODIFIED="1703047067711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
