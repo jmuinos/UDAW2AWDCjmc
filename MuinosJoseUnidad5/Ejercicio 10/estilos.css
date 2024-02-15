@@ -1,0 +1,13 @@
+.bg-orange{
+background: #FF6633 !important;
+}
+.text-orange{
+    color: #FF6633 !important;
+}
+.boton-clave{
+    width: 100px;
+    height: 100px;
+}
+#claveSeguridad{
+    max-width: 600px;
+}

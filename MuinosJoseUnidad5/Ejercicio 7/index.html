@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Formulario de Envío</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body class="container d-flex justify-content-center align-items-center vh-100">
+		<div class="rounded bg-dark-subtle p-5">
+			<h2>Formulario de Envío</h2>
+			<form id="formularioEnvio">
+				<div class="mb-3">
+					<label for="fechaCreacion" class="form-label">Fecha de Creación</label>
+					<input type="text" class="form-control" id="fechaCreacion" placeholder="DD/MM/AAAA" required>
+				</div>
+				<div class="mb-3">
+					<label for="codigoEmpleado" class="form-label">Empleado</label>
+					<input type="text" class="form-control" id="codigoEmpleado" placeholder="XX$0000" required>
+				</div>
+				<div class="mb-3">
+					<label for="destinatario" class="form-label">Destinatario</label>
+					<input type="text" class="form-control" id="destinatario" placeholder="XX_Ciudad:0000" required>
+				</div>
+				<div class="mb-3">
+					<label for="pesoGramos" class="form-label">Peso en gramos</label>
+					<input type="number" class="form-control" id="pesoGramos" placeholder="100 - 5000" required>
+				</div>
+				<div class="mb-3">
+					<label for="numeroCuenta" class="form-label">Número de cuenta</label>
+					<input type="text" class="form-control" id="numeroCuenta" placeholder="IBAN00000000000000000000" required>
+				</div>
+				<button type="submit" class="btn btn-primary">Enviar</button>
+			</form>
+		</div>
+		
+		<script src="validation.js"></script>
+	</body>
+</html>

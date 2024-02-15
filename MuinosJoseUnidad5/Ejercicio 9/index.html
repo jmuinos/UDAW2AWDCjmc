@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Registro de Amazon</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link  type="text/css" rel="stylesheet" href="estilos.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/ec0538a353.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+	</head>
+	<body class="container-fluid m-0 p-0 d-flex flex-column justify-content-center align-items-center vh-100">
+		<div class="container d-flex flex-column justify-content-center align-items-center">
+			<img id="amazon-logo" src="amazon-logo.png" alt="Logo de Amazon">
+			<div id="form-amazon" class="rounded p-3 border border-1 border-secondary-subtle shadow mb-5">
+				<h2 class="mb-3">Crear cuenta</h2>
+				<form id="miFormulario" class="needs-validation mb-5" novalidate>
+					<div class="mb-3 justify-content-start">
+						<label for="nombreApellido" class="form-label fw-bold mb-1">Nombre</label>
+						<input type="text" class="form-control" id="nombreApellido" placeholder="Nombre y apellido" required>
+						<div class="invalid-feedback"><i class="fa-sharp fa-solid fa-exclamation"></i>Introduce tu nombre</div>
+					</div>
+					<div class="mb-3">
+						<label for="telefonoEmail" class="form-label fw-bolder mb-1">Número de móvil o dirección de correo electrónico</label>
+						<input type="text" class="form-control" id="telefonoEmail" placeholder="" required>
+						<div class="invalid-feedback"><i class="fa-sharp fa-solid fa-exclamation"></i> Indica tu dirección de e-mail o teléfono móvil!</div>
+					</div>
+					<div class="mb-3">
+						<label for="contrasena" class="form-label fw-semibold mb-1">Contraseña</label>
+						<input type="password" class="form-control" id="contrasena" placeholder="Al menos 6 caracteres" required>
+						<div class="invalid-feedback"><i class="fa-sharp fa-solid fa-exclamation"></i> Mínimo de 6 caracteres obligatorios</div>
+					</div>
+					<div class="mb-3">
+						<label for="confirmacionContrasena" class="form-label fw-semibold mb-1">Confirma tu contraseña</label>
+						<input type="password" class="form-control" id="confirmacionContrasena" placeholder="" required>
+						<div class="invalid-feedback"><i class="fa-sharp fa-solid fa-exclamation"></i> Introduce tu contraseña otra vez:</div>
+					</div>
+					<button type="submit" class="btn btn-amazon shadow w-100">Continuar</button>
+				</form>
+				<div class="mb-4">
+					<p id="condiciones">
+						Al crear una cuenta, aceptas las <a class="text-decoration-none" href="https://www.amazon.es/gp/help/customer/display.html/ref=ap_register_notification_condition_of_use?ie=UTF8&nodeId=200545940">Condiciones de uso y venta de Amazon</a>.
+						Consulta <a class="text-decoration-none" href="https://www.amazon.es/gp/help/customer/display.html/ref=ap_register_notification_privacy_notice?ie=UTF8&nodeId=200545460">el Aviso de privacidad</a>,
+						el <a class="text-decoration-none" href="https://www.amazon.es/gp/help/customer/display.html/?nodeId=201890250">Aviso de cookies</a> y el
+						<a class="text-decoration-none" href="https://www.amazon.es/gp/help/customer/display.html?nodeId=201909150">Aviso de anuncios</a> basados en intereses.
+					</p>
+				</div>
+				<div class="table-group-divider border-light-subtle border-1 mb-4"></div>
+				<div class="mb-3">
+					<p class="fw-semibold mb-1">¿Compras para tu empresa?</p>
+					<a class="text-decoration-none" href="https://www.amazon.es/business/register/org/landing?ref_=ap_altreg_ab">Crear una cuenta de empresa gratuita</a>
+				</div>
+				<div class="table-group-divider border-light-subtle border-1 rounded shadow mb-4"></div>
+				<div class="mb-1">
+					<p class="mb-1">¿Ya tiene una cuenta? <a class="text-decoration-none fw-normal" href="https://www.amazon.es/business/register/org/landing?ref_=ap_altreg_ab">Iniciar sesión &#x25B8</a></p>
+				</div>
+			</div>
+		</div>
+		<footer class="container-fluid p-3 d-flex flex-column bg-light border-top h-100">
+			<div class="d-flex flex-row justify-content-center gap-5 mb-2">
+				<a class="text-decoration-none" href="https://www.amazon.es/gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940">Condiciones de uso</a>
+				<a class="text-decoration-none" href="https://www.amazon.es/gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200545460">Aviso de privacidad</a>
+				<a class="text-decoration-none" href="https://www.amazon.es/help">Ayuda</a>
+				<a class="text-decoration-none" href="https://www.amazon.es/gp/help/customer/display.html/?nodeId=201890250">Cookies</a>
+				<a class="text-decoration-none" href="https://www.amazon.es/gp/help/customer/display.html/?nodeId=201909150">Publicidad basada en intereses</a>
+			</div>
+			<div class="d-flex flex-row justify-content-center align-items-center text-secondary">© 1996-2024, Amazon.com, Inc. o sus afiliados</div>
+		</footer>
+		<script src="validation.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+#amazon-logo{
+    max-width: 120px;
+}
+
+a{
+    color: #0066c0 !important;
+}
+
+*{
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+html{
+    font-size: 15px;
+}
+
+.btn-amazon{
+    background: #ffdd00 !important;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+#condiciones{
+    font-size: 14px;
+}
+
+footer{
+    font-size: 11px;
+}
+
+#form-amazon{
+    width: 100%;
+    max-width: 390px;
+}

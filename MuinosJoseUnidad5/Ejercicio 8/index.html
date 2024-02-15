@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Test de Tecnología con Bootstrap</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	</head>
+	<body>
+		<div class="container d-flex justify-content-center align-items-center vh-100">
+			<form id="testTecnologia" class="border border-secondary rounded p-4">
+				<div class="form-group">
+					<p id="pregunta1">1. ¿Cuál es el lenguaje de programación más utilizado en 2023?</p>
+					<div>
+						<input type="radio" id="p1r1" name="pregunta1" value="0"><label for="p1r1">&nbsp;C#</label><br>
+						<input type="radio" id="p1r2" name="pregunta1" value="1"><label for="p1r2">&nbsp;JavaScript</label><br>
+						<input type="radio" id="p1r3" name="pregunta1" value="0"><label for="p1r3">&nbsp;Python</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<p id="pregunta2">2. ¿Qué compañía desarrolló el sistema operativo Windows?</p>
+					<div>
+						<input type="radio" id="p2r1" name="pregunta2" value="1"><label for="p2r1">&nbsp;Microsoft</label><br>
+						<input type="radio" id="p2r2" name="pregunta2" value="0"><label for="p2r2">&nbsp;Apple</label><br>
+						<input type="radio" id="p2r3" name="pregunta2" value="0"><label for="p2r3">&nbsp;IBM</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<p id="pregunta3">3. ¿Qué significa HTML?</p>
+					<div>
+						<input type="radio" id="p3r1" name="pregunta3" value="0"><label for="p3r1">&nbsp;High Technology Machine Language</label><br>
+						<input type="radio" id="p3r2" name="pregunta3" value="0"><label for="p3r2">&nbsp;HyperText and links Markup Language</label><br>
+						<input type="radio" id="p3r3" name="pregunta3" value="1"><label for="p3r3">&nbsp;HyperText Markup Language</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<p id="pregunta4">4. ¿Qué es un SSD?</p>
+					<div>
+						<input type="radio" id="p4r1" name="pregunta4" value="1"><label for="p4r1">&nbsp;Solid State Drive</label><br>
+						<input type="radio" id="p4r2" name="pregunta4" value="0"><label for="p4r2">&nbsp;Secure System Disk</label><br>
+						<input type="radio" id="p4r3" name="pregunta4" value="0"><label for="p4r3">&nbsp;System Storage Device</label>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary">Enviar respuestas</button>
+			</form>
+		</div>
+		
+		<script src="testEjercicio.js"></script>
+	</body>
+</html>
