@@ -1,14 +1,20 @@
-document.addEventListener('DOMContentLoaded', function() {
+class Cliente {
+	constructor(dni, fechaNacimiento) {
+		this.dni = dni;
+		this.fechaNacimiento = fechaNacimiento;
+	}
+}
+let claveIngresada = [];
+const claveCorrecta = [0, 4, 2, 0]; // Clave usada de forma estática en este caso
+
+document.addEventListener('DOMContentLoaded', () => {
 	cargarDatosCliente();
 	
-	const formularioCliente = document.getElementById('formularioCliente');
-	formularioCliente.addEventListener('submit', function(e) {
+	document.getElementById('formularioCliente').addEventListener('submit', function(e) {
 		e.preventDefault();
 		almacenarDatosCliente();
 		mostrarTecladoSeguridad();
 	});
-	
-	document.getElementById('validarClave').addEventListener('click', validarClave);
 });
 
 function almacenarDatosCliente() {
@@ -17,7 +23,7 @@ function almacenarDatosCliente() {
 	const recordarCliente = document.getElementById('recordarCliente').checked;
 	
 	if (recordarCliente) {
-		const cliente = { dni, fechaNacimiento };
+		const cliente = new Cliente(dni, fechaNacimiento);
 		localStorage.setItem('cliente', JSON.stringify(cliente));
 	}
 }
@@ -37,20 +43,17 @@ function mostrarTecladoSeguridad() {
 	generarTecladoNumerico();
 }
 
-let claveIngresada = [];
-const claveCorrecta = [0, 4, 2, 0]; // Deberías tener una forma de verificar esto contra los datos del cliente.
-
 function generarTecladoNumerico() {
 	const tecladoNumerico = document.getElementById('tecladoNumerico');
-	tecladoNumerico.innerHTML = ''; // Limpiar el teclado anterior
+	tecladoNumerico.innerHTML = '';
 	let numeros = Array.from({ length: 10 }, (_, i) => i);
 	
-	numeros.sort(() => Math.random() - 0.5); // Mezclar números aleatoriamente
+	numeros.sort(() => Math.random() - 0.5);
 	
 	numeros.forEach(numero => {
 		const boton = document.createElement('button');
 		boton.textContent = numero;
-		boton.className = 'btn btn-secondary text-white m-1 boton-clave';
+		boton.className = 'boton-clave btn btn-secondary text-white m-1';
 		boton.addEventListener('click', () => seleccionarNumero(numero));
 		tecladoNumerico.appendChild(boton);
 	});
@@ -62,13 +65,12 @@ function seleccionarNumero(numero) {
 }
 
 function validarClave() {
-	// Simulación de la validación. Deberías implementar tu lógica de validación aquí.
 	if (JSON.stringify(claveIngresada) === JSON.stringify(claveCorrecta)) {
-		alert('Clave correcta. Acceso concedido.');
-		// Redirigir al usuario o mostrar contenido adicional aquí.
+		alert('Clave correcta. Bienvenido al Banco ING.');
 	} else {
-		alert('Clave incorrecta. Intente de nuevo.');
-		claveIngresada = []; // Reiniciar la clave ingresada
-		document.getElementById('entradaClave').textContent = ''; // Limpiar la visualización de la clave
+		alert('Clave incorrecta. Intenta de nuevo.');
+		claveIngresada = [];
+		document.getElementById('entradaClave').textContent = '';
+		generarTecladoNumerico(); // Regenera el teclado para un nuevo intento
 	}
 }

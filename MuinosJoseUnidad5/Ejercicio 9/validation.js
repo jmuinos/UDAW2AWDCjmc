@@ -71,7 +71,6 @@ function validarCampoVacio(idCampo, mensajeError) {
 	const campo = document.getElementById(idCampo);
 	if (campo.value.trim() === '') {
 		mostrarError(campo, mensajeError);
-		// La siguiente línea se elimina para evitar referencia antes de asignación
 		//validacionCorrecta = false;
 	} else {
 		limpiarError(campo);

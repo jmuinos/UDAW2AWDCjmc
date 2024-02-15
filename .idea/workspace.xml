@@ -4,62 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="AVBEACON FRONT">
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/LÉEME.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/cliente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 7/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 7/validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 8/testEjercicio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 9/amazon-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 9/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 9/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 9/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 9/validation.js" afterDir="false" />
+    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="tema 5 hasta Ejercicio 10 (falta acabar 10)">
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11/estilos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/LÉEME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/html/about-us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/html/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/html/fragments/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/html/fragments/nav.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/html/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/html/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/html/professionals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/html/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/html/sign-up.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/ampliar-contactos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/ampliar-redes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/bosque-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/chat-asistencia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/clapperboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/contact.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/film.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/home-bg.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/passion.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/projects/echopixel.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/projects/infinitybroadcast.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/projects/lunina.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/projects/streamline.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/projects/visualwave.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/team.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/team/Gabriella.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/team/Mike.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/team/Nina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/users/Daniela.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/users/Harry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/users/Javi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/users/Maria.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/users/Michaela.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/images/users/Nicky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/js/loadFragments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AVBEACON/js/themeSettings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/cliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/cliente.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +74,7 @@
     "JavaScript Debug.index.html (1).executor": "Debug",
     "JavaScript Debug.index.html (2).executor": "Debug",
     "JavaScript Debug.index.html.executor": "Debug",
+    "Node.js.app.js.executor": "Debug",
     "Node.js.validation.js.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -157,15 +109,23 @@
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosCalveloJoseTarea5" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 10/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 11/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 9/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11/app.js" working-dir="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="Node.js.app.js" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -211,7 +171,7 @@
       <workItem from="1703004848401" duration="2909000" />
       <workItem from="1703016623638" duration="5412000" />
       <workItem from="1707209691850" duration="164000" />
-      <workItem from="1707938681234" duration="18408000" />
+      <workItem from="1707938681234" duration="19513000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />
@@ -237,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702548693528</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tema 5 hasta Ejercicio 10 (falta acabar 10)">
+      <option name="closed" value="true" />
+      <created>1707959255399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707959255399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +228,7 @@
     <MESSAGE value="vcs" />
     <MESSAGE value="Puta mierda" />
     <MESSAGE value="AVBEACON FRONT" />
-    <option name="LAST_COMMIT_MESSAGE" value="AVBEACON FRONT" />
+    <MESSAGE value="tema 5 hasta Ejercicio 10 (falta acabar 10)" />
+    <option name="LAST_COMMIT_MESSAGE" value="tema 5 hasta Ejercicio 10 (falta acabar 10)" />
   </component>
 </project>

@@ -1,0 +1,7 @@
+#contenedor {
+    height: 500px;
+    position: relative;
+}
+#boton {
+    position: absolute;
+}
