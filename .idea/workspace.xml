@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="tema 5 hasta Ejercicio 10 (falta acabar 10)">
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11/index.html" afterDir="false" />
+    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="Tema 6: ej1-3 (3 es un cristo de dificil)">
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/Ejercicio 1 (Tareas)/tareas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/Ejercicio 1 (Tareas)/tareas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/Ejercicio 1 (Tareas)/tareas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/Ejercicio 2 (Focus)/focus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/Ejercicio 2 (Focus)/focus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/Ejercicio 2 (Focus)/focus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/Ejercicio 3 (Form dinamico)/DiscoAux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/Ejercicio 3 (Form dinamico)/formDinamico.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/Ejercicio 3 (Form dinamico)/formDinamico.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/cliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/cliente.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 10/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +74,14 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Ejercicio5UD5.html.executor": "Debug",
     "JavaScript Debug.Ejercicio6.html.executor": "Run",
+    "JavaScript Debug.focus.html.executor": "Run",
+    "JavaScript Debug.formDinamico.html.executor": "Debug",
     "JavaScript Debug.index.html (1).executor": "Debug",
     "JavaScript Debug.index.html (2).executor": "Debug",
     "JavaScript Debug.index.html.executor": "Debug",
+    "JavaScript Debug.tareas.html.executor": "Debug",
     "Node.js.app.js.executor": "Debug",
     "Node.js.validation.js.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -82,7 +90,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "trunk",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 9",
+    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -95,11 +103,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad6\Ejercicio 3 (Form dinamico)" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad6\Ejercicio 2 (Focus)" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 9" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc" />
-      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 6\js" />
-      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 6\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 6\js" />
@@ -109,14 +117,17 @@
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosCalveloJoseTarea5" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 10/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.tareas.html">
+    <configuration name="Ejercicio5UD5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 5/Ejercicio5UD5.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 11/index.html" useBuiltInWebServerPort="true">
+    <configuration name="focus.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad6/Ejercicio 2 (Focus)/focus.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 9/index.html" useBuiltInWebServerPort="true">
+    <configuration name="formDinamico.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad6/Ejercicio 3 (Form dinamico)/formDinamico.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="tareas.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad6/Ejercicio 1 (Tareas)/tareas.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11/app.js" working-dir="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 11">
@@ -124,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.tareas.html" />
+        <item itemvalue="JavaScript Debug.formDinamico.html" />
+        <item itemvalue="JavaScript Debug.Ejercicio5UD5.html" />
+        <item itemvalue="JavaScript Debug.focus.html" />
         <item itemvalue="Node.js.app.js" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +183,9 @@
       <workItem from="1703004848401" duration="2909000" />
       <workItem from="1703016623638" duration="5412000" />
       <workItem from="1707209691850" duration="164000" />
-      <workItem from="1707938681234" duration="19513000" />
+      <workItem from="1707938681234" duration="19690000" />
+      <workItem from="1708386981511" duration="4217000" />
+      <workItem from="1708391632537" duration="8554000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />
@@ -205,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707959255399</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tema 5 acabado">
+      <option name="closed" value="true" />
+      <created>1707960421776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707960421776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +251,8 @@
     <MESSAGE value="Puta mierda" />
     <MESSAGE value="AVBEACON FRONT" />
     <MESSAGE value="tema 5 hasta Ejercicio 10 (falta acabar 10)" />
-    <option name="LAST_COMMIT_MESSAGE" value="tema 5 hasta Ejercicio 10 (falta acabar 10)" />
+    <MESSAGE value="tema 5 acabado" />
+    <MESSAGE value="Tema 6: ej1-3 (3 es un cristo de dificil)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema 6: ej1-3 (3 es un cristo de dificil)" />
   </component>
 </project>
