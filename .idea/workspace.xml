@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="Tema 6 + Tarea 6 (ACABADO)">
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 4/equipos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 4/equipos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 4/equipos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad72/Ejercicio 3/equipos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad72/Ejercicio 3/equipos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad72/Ejercicio 3/equipos.json" afterDir="false" />
+    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Examen/Ejercicio 1/personas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/Ejercicio 1/personas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examen/Ejercicio 1/personas.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +81,7 @@
     "JavaScript Debug.index.html.executor": "Debug",
     "JavaScript Debug.infoPagina.html.executor": "Debug",
     "JavaScript Debug.inputsDinamicos.html.executor": "Debug",
+    "JavaScript Debug.personas.html.executor": "Debug",
     "JavaScript Debug.tableroDibujo.html.executor": "Debug",
     "JavaScript Debug.tarea-edificios.html (1).executor": "Debug",
     "JavaScript Debug.tarea-edificios.html.executor": "Debug",
@@ -96,7 +94,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "trunk",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc",
+    "last_opened_file_path": "C:/Users/jose.muinoscalvelo/WebstormProjects/UDAW2AWDCjmc/Examen",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -110,11 +108,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jose.muinoscalvelo\WebstormProjects\UDAW2AWDCjmc\Examen" />
+      <recent name="C:\Users\jose.muinoscalvelo\WebstormProjects\UDAW2AWDCjmc\Examen\Ejercicio 1" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad6" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad6\Ejercicio 3 (Form dinamico)" />
-      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad6\Ejercicio 2 (Focus)" />
-      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 9" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosCalveloJoseTarea6" />
@@ -124,7 +122,7 @@
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.equipos.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.personas.html">
     <configuration name="equipos.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad72/Ejercicio 3/equipos.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -134,19 +132,19 @@
     <configuration name="gestionEdificios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad6/Ejercicio 7 (Edificios)/gestionEdificios.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tableroDibujo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosCalveloJoseTarea6/tableroDibujo.html" useBuiltInWebServerPort="true">
+    <configuration name="personas.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/Examen/Ejercicio 1/personas.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tarea-edificios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosCalveloJoseTarea4/tarea-edificios.html" useBuiltInWebServerPort="true">
+    <configuration name="tableroDibujo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosCalveloJoseTarea6/tableroDibujo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.personas.html" />
         <item itemvalue="JavaScript Debug.equipos.html (1)" />
         <item itemvalue="JavaScript Debug.equipos.html" />
         <item itemvalue="JavaScript Debug.tableroDibujo.html" />
         <item itemvalue="JavaScript Debug.gestionEdificios.html" />
-        <item itemvalue="JavaScript Debug.tarea-edificios.html" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +195,8 @@
       <workItem from="1708483580972" duration="123000" />
       <workItem from="1708483749497" duration="172000" />
       <workItem from="1708496651582" duration="353000" />
+      <workItem from="1708501051669" duration="108000" />
+      <workItem from="1708501189411" duration="9856000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />
