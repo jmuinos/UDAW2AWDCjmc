@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Análisis de Página</title>
+		<style>
+			body > * {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<p>Primer párrafo.</p>
+		<p>Segundo párrafo.</p>
+		<a href="https://example.com">Primer enlace</a>
+		<a href="/wiki/Municipio">Enlace especial</a>
+		<a href="iframe.html">Penúltimo enlace</a>
+		<a href="/wiki/Municipio">Último enlace</a>
+		
+		<input type="file" id="cargarArchivo" accept=".html">
+		<iframe id="iframeCargado" style="width:100%; height:500px;"></iframe>
+		<h2>Resultados del Análisis</h2>
+		<div id="resultados"></div>
+		<script src="infoPagina.js"></script>
+</body>
+</html>

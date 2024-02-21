@@ -1,0 +1,18 @@
+#formulario {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
