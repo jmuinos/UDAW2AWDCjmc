@@ -1,0 +1,7 @@
+[
+  {"nombre": "Equipo A", "PJ": 30, "PG": 18, "PP": 7, "PE": 5},
+  {"nombre": "Equipo B", "PJ": 30, "PG": 15, "PP": 10, "PE": 5},
+  {"nombre": "Equipo C", "PJ": 30, "PG": 20, "PP": 5, "PE": 5},
+  {"nombre": "Equipo D", "PJ": 30, "PG": 10, "PP": 15, "PE": 5},
+  {"nombre": "Equipo E", "PJ": 30, "PG": 5, "PP": 20, "PE": 5}
+]
