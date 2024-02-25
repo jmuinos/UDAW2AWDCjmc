@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    border: #807070 1px solid;
+    border-radius: 13px;
+    background-color: #dddddd;
+    width: 300px;
+    height: auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.invalid {
+    padding: 1vh;
+    color: red;
+    background-color: lightcoral;
+    border-bottom: red 1px solid;
+}
+
+.valid {
+    padding: 1vh;
+    color: green;
+    background-color: lightgreen;
+    border-bottom: green 1px solid;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1vh;
+    padding: 0;
+}
+
+li {
+
+}
