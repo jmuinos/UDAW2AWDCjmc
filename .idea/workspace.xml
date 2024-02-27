@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="Recursos para Examen Final (2ª Evaluacion)">
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 1/Ejercicio4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 1/Ejercicio4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 1/disco.js" afterDir="false" />
+    <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="React Exame anterior OK">
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareasFacil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareasIniciales.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactExame/ejercicio1/src/components/Persona.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactExame/ejercicio1/src/components/Personas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactExame/ejercicio1/src/personas.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (jQuery)/personas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (jQuery)/personas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (jQuery)/personas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursos Examen/AJAX (Fetch)/personas.js" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (Fetch)/personas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +96,14 @@
     "JavaScript Debug.infoPagina.html.executor": "Debug",
     "JavaScript Debug.inputsDinamicos.html.executor": "Debug",
     "JavaScript Debug.personas.html (1).executor": "Debug",
+    "JavaScript Debug.personas.html (2).executor": "Debug",
     "JavaScript Debug.personas.html.executor": "Debug",
     "JavaScript Debug.tableroDibujo.html.executor": "Debug",
     "JavaScript Debug.tarea-edificios.html (1).executor": "Debug",
     "JavaScript Debug.tarea-edificios.html.executor": "Debug",
     "JavaScript Debug.tareaUD5.html.executor": "Debug",
     "JavaScript Debug.tareas.html.executor": "Debug",
+    "Node.js.App.js.executor": "Run",
     "Node.js.app.js.executor": "Debug",
     "Node.js.validation.js.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -101,7 +112,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "trunk",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc/MuinosJoseUnidad71",
+    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -122,36 +133,36 @@
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\Recursos Examen\AJAX (Fetch)" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\Recursos Examen" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\Recursos Examen\AJAX (Fetch)" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosCalveloJoseTarea6" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 6\js" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad5\Ejercicio 6\images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.formulario.html">
-    <configuration name="Ejercicio5UD5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosJoseUnidad5/Ejercicio 5/Ejercicio5UD5.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.personas.html (2)">
     <configuration name="formulario.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/Recursos Examen/Validación/formulario.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="personas.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/Recursos Examen/AJAX (Fetch)/personas.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="personas.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/Recursos Examen/AJAX (jQuery)/personas.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="personas.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/Examen/Ejercicio 1/personas.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="tareaUD5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UDAW2AWDCjmc/MuinosCalveloJoseTarea5/tareaUD5.html" useBuiltInWebServerPort="true">
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ReactExame/ejercicio1/src/App.js" working-dir="$PROJECT_DIR$/ReactExame/ejercicio1/src">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.personas.html (2)" />
+        <item itemvalue="Node.js.App.js" />
         <item itemvalue="JavaScript Debug.formulario.html" />
         <item itemvalue="JavaScript Debug.personas.html (1)" />
         <item itemvalue="JavaScript Debug.personas.html" />
-        <item itemvalue="JavaScript Debug.tareaUD5.html" />
-        <item itemvalue="JavaScript Debug.Ejercicio5UD5.html" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +218,9 @@
       <workItem from="1708863381450" duration="23675000" />
       <workItem from="1708954153275" duration="1991000" />
       <workItem from="1708969860409" duration="1371000" />
+      <workItem from="1709001154059" duration="42000" />
+      <workItem from="1709001242736" duration="211000" />
+      <workItem from="1709001478345" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />
@@ -317,6 +331,7 @@
     <MESSAGE value="Tema 6 + Tarea 6 (ACABADO)" />
     <MESSAGE value="Jquery script 7.2.3" />
     <MESSAGE value="Recursos para Examen Final (2ª Evaluacion)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursos para Examen Final (2ª Evaluacion)" />
+    <MESSAGE value="React Exame anterior OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="React Exame anterior OK" />
   </component>
 </project>

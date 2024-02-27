@@ -5,32 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea762c09-8160-4988-8518-7bea0b6dfc71" name="Changes" comment="0703 HECHO, SALTA ERROR DE CONSOLA (Uncaught TypeError: Cannot read properties of undefined (reading 'textContent')), la aplicación funciona y se obtienen y visualizan todos los datos.">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 1/Ejercicio0701.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 1/Ejercicio0701.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 1/clientes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 2/Ejercicio0702.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 2/Ejercicio0702.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 2/disco.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 2/discos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/Ejercicio0703.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/images/fruits-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/js/cartas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/js/cookies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/js/ejercicio0703.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 3/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MuinosJoseUD73/ejercicio1/src/components/Persona.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MuinosJoseUD73/ejercicio1/src/components/Personas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MuinosJoseUD73/ejercicio1/src/personas.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MuinosJoseUnidad6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 5 (Tareas)/tareas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 5 (Tareas)/tareas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 5 (Tareas)/tareas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 5 (Tareas)/tareasFacil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 5 (Tareas)/tareasIniciales.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursos Examen/AJAX (jQuery)/personas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursos Examen/AJAX (jQuery)/personas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursos Examen/AJAX (jQuery)/personas.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursos Examen/AJAX (Fetch)/personas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursos Examen/AJAX (Fetch)/personas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -38,9 +39,9 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2cupDI8mP8uRGpiszADRTPchy3x" />
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
@@ -54,10 +55,12 @@
     "JavaScript Debug.Ejercicio0701.html.executor": "Debug",
     "JavaScript Debug.Ejercicio0703.html.executor": "Debug",
     "JavaScript Debug.Ejercicio4.html.executor": "Debug",
+    "JavaScript Debug.tareas.html.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "trunk",
-    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc/Recursos Examen",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,20 +72,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad71\Ejercicio 3" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad71\Ejercicio 5 (Tareas)" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad71" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad71\Ejercicio 3" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad71\Ejercicio 2" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Ejercicio0703.html">
+  <component name="RunManager" selected="JavaScript Debug.tareas.html">
     <configuration name="Ejercicio0701.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MuinosJoseUnidad71/MuinosJoseUnidad71/Ejercicio 1/Ejercicio0701.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Ejercicio0703.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MuinosJoseUnidad71/MuinosJoseUnidad71/Ejercicio 3/Ejercicio0703.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="tareas.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MuinosJoseUnidad71/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareas.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.tareas.html" />
         <item itemvalue="JavaScript Debug.Ejercicio0703.html" />
         <item itemvalue="JavaScript Debug.Ejercicio0701.html" />
       </list>
@@ -96,8 +104,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708971197128</updated>
-      <workItem from="1708971198651" duration="16188000" />
+      <workItem from="1708971198651" duration="21000000" />
+      <workItem from="1709001218772" duration="22000" />
     </task>
+    <task id="LOCAL-00001" summary="0703 HECHO, SALTA ERROR DE CONSOLA (Uncaught TypeError: Cannot read properties of undefined (reading 'textContent')), la aplicación funciona y se obtienen y visualizan todos los datos.">
+      <option name="closed" value="true" />
+      <created>1708992463426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708992463426</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
