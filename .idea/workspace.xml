@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="React Exame anterior OK">
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareasFacil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 5 (Tareas)/tareasIniciales.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactExame/ejercicio1/src/components/Persona.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactExame/ejercicio1/src/components/Personas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactExame/ejercicio1/src/personas.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (jQuery)/personas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (jQuery)/personas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (jQuery)/personas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursos Examen/AJAX (Fetch)/personas.js" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (Fetch)/personas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +205,7 @@
       <workItem from="1708969860409" duration="1371000" />
       <workItem from="1709001154059" duration="42000" />
       <workItem from="1709001242736" duration="211000" />
-      <workItem from="1709001478345" duration="346000" />
+      <workItem from="1709001478345" duration="1168000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />
@@ -302,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708891446833</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="React Exame anterior OK">
+      <option name="closed" value="true" />
+      <created>1709001850954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709001850954</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
