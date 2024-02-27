@@ -1,0 +1,54 @@
+body {
+    background-color: lightgreen;
+    background-position: center;
+    background-size: cover;
+}
+
+.carta {
+    height: 100%;
+    width: 95%;
+    border-radius: 10px;
+    justify-content: center;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+}
+
+.imagen-frontal {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carta.boca-arriba {
+    transform: rotateY(180deg);
+}
+
+.frente, .reves {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+
+    height: 100%;
+    width: 90%;
+    justify-content: center;
+}
+
+.carta .frente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta .reves {
+    background-color: #ffffff;
+    opacity: 1;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #ffffff 22px), repeating-linear-gradient(#436fd255, #436fd2);
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+}
+
+.carta .frente {
+    transform: rotateY(180deg);
+}

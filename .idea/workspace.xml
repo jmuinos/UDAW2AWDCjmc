@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31c75d9f-198d-4ada-8add-0086262164ca" name="Changes" comment="Recursos para Examen Final (2ª Evaluacion)">
-      <change afterPath="$PROJECT_DIR$/Recursos Examen/Validación/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos Examen/Validación/estilos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos Examen/Validación/formulario.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos Examen/Validación/generacion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos Examen/Validación/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursos Examen/Validación/validacion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 1/Ejercicio4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 1/Ejercicio4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MuinosJoseUnidad71/Ejercicio 1/disco.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen/Ejercicio 1 (JoseMuinos).zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen/Ejercicio 1/personas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (Fetch)/personas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen/Ejercicio 1/personas.js" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (Fetch)/personas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examen/Ejercicio 1/personas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos Examen/AJAX (Fetch)/personas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MuinosJoseUnidad5/Ejercicio 7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Plantillas HTML+Bootstrap/PlantillaBase.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +101,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "trunk",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jose.muinoscalvelo/WebstormProjects/UDAW2AWDCjmc/Examen",
+    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc/MuinosJoseUnidad71",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -121,11 +115,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad71\Ejercicio 1" />
       <recent name="C:\Users\jose.muinoscalvelo\WebstormProjects\UDAW2AWDCjmc\Examen" />
       <recent name="C:\Users\jose.muinoscalvelo\WebstormProjects\UDAW2AWDCjmc\Examen\Ejercicio 1" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc" />
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad6" />
-      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad6\Ejercicio 3 (Form dinamico)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\Recursos Examen\AJAX (Fetch)" />
@@ -210,7 +204,9 @@
       <workItem from="1708496651582" duration="353000" />
       <workItem from="1708501051669" duration="108000" />
       <workItem from="1708501189411" duration="9856000" />
-      <workItem from="1708863381450" duration="23390000" />
+      <workItem from="1708863381450" duration="23675000" />
+      <workItem from="1708954153275" duration="1991000" />
+      <workItem from="1708969860409" duration="1371000" />
     </task>
     <task id="LOCAL-00001" summary="Ejercicios Unidad 2 -&gt; terminados">
       <option name="closed" value="true" />
@@ -284,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708560059108</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Recursos para Examen Final (2ª Evaluacion)">
+      <option name="closed" value="true" />
+      <created>1708891446833</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708891446833</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

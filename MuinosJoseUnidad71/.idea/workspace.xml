@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea762c09-8160-4988-8518-7bea0b6dfc71" name="Changes" comment="0703 HECHO, SALTA ERROR DE CONSOLA (Uncaught TypeError: Cannot read properties of undefined (reading 'textContent')), la aplicación funciona y se obtienen y visualizan todos los datos.">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 1/Ejercicio0701.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 1/Ejercicio0701.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 1/clientes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 2/Ejercicio0702.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 2/Ejercicio0702.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 2/disco.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 2/discos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/Ejercicio0703.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/images/fruits-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/js/cartas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/js/cookies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/js/ejercicio0703.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 3/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2cupDI8mP8uRGpiszADRTPchy3x" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.Ejercicio0701.html.executor": "Debug",
+    "JavaScript Debug.Ejercicio0703.html.executor": "Debug",
+    "JavaScript Debug.Ejercicio4.html.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "trunk",
+    "last_opened_file_path": "C:/Users/josem/WebstormProjects/UDAW2AWDCjmc/Recursos Examen",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad71\Ejercicio 3" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad71" />
+      <recent name="C:\Users\josem\WebstormProjects\UDAW2AWDCjmc\MuinosJoseUnidad71\Ejercicio 2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Ejercicio0703.html">
+    <configuration name="Ejercicio0701.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MuinosJoseUnidad71/MuinosJoseUnidad71/Ejercicio 1/Ejercicio0701.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Ejercicio0703.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MuinosJoseUnidad71/MuinosJoseUnidad71/Ejercicio 3/Ejercicio0703.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Ejercicio0703.html" />
+        <item itemvalue="JavaScript Debug.Ejercicio0701.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea762c09-8160-4988-8518-7bea0b6dfc71" name="Changes" comment="" />
+      <created>1708971197128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708971197128</updated>
+      <workItem from="1708971198651" duration="16188000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0703 HECHO, SALTA ERROR DE CONSOLA (Uncaught TypeError: Cannot read properties of undefined (reading 'textContent')), la aplicación funciona y se obtienen y visualizan todos los datos." />
+    <option name="LAST_COMMIT_MESSAGE" value="0703 HECHO, SALTA ERROR DE CONSOLA (Uncaught TypeError: Cannot read properties of undefined (reading 'textContent')), la aplicación funciona y se obtienen y visualizan todos los datos." />
+  </component>
+</project>

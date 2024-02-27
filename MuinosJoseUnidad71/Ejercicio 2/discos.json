@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "The Dark Side of the Moon",
+    "grupo": "Pink Floyd",
+    "anno": 1973,
+    "tipoMusica": "Rock progresivo",
+    "localizacion": 1,
+    "prestado": false
+  },
+  {
+    "nombre": "Abbey Road",
+    "grupo": "The Beatles",
+    "anno": 1969,
+    "tipoMusica": "Rock",
+    "localizacion": 2,
+    "prestado": false
+  },
+  {
+    "nombre": "Thriller",
+    "grupo": "Michael Jackson",
+    "anno": 1982,
+    "tipoMusica": "Pop",
+    "localizacion": 3,
+    "prestado": false
+  },
+  {
+    "nombre": "Rumours",
+    "grupo": "Fleetwood Mac",
+    "anno": 1977,
+    "tipoMusica": "Rock",
+    "localizacion": 4,
+    "prestado": true
+  },
+  {
+    "nombre": "A Night at the Opera",
+    "grupo": "Queen",
+    "anno": 1975,
+    "tipoMusica": "Rock",
+    "localizacion": 5,
+    "prestado": false
+  },
+  {
+    "nombre": "Led Zeppelin IV",
+    "grupo": "Led Zeppelin",
+    "anno": 1971,
+    "tipoMusica": "Hard rock",
+    "localizacion": 6,
+    "prestado": true
+  },
+  {
+    "nombre": "Back in Black",
+    "grupo": "AC/DC",
+    "anno": 1980,
+    "tipoMusica": "Hard rock",
+    "localizacion": 7,
+    "prestado": false
+  },
+  {
+    "nombre": "Hotel California",
+    "grupo": "Eagles",
+    "anno": 1976,
+    "tipoMusica": "Rock",
+    "localizacion": 8,
+    "prestado": false
+  },
+  {
+    "nombre": "The Wall",
+    "grupo": "Pink Floyd",
+    "anno": 1979,
+    "tipoMusica": "Rock progresivo",
+    "localizacion": 9,
+    "prestado": true
+  },
+  {
+    "nombre": "Born to Run",
+    "grupo": "Bruce Springsteen",
+    "anno": 1975,
+    "tipoMusica": "Rock",
+    "localizacion": 10,
+    "prestado": false
+  }
+]
