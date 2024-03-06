@@ -2,20 +2,34 @@ window.onload = function () {
 	cargarEquipos();
 };
 
+//Con xhr
+// function cargarEquipos() {
+// 	const xhr = new XMLHttpRequest();
+// 	xhr.open('GET', 'equipos.json', true);
+// 	xhr.onload = function () {
+// 		if (this.status === 200) {
+// 			const equipos = JSON.parse(this.responseText);
+// 			llenarSelectConEquipos(equipos);
+// 		} else { console.error('No se pudieron cargar los equipos');}
+//  };
+// 	xhr.send();
+// }
+
+//CON FETCH
 function cargarEquipos() {
-	const xhr = new XMLHttpRequest();
-	xhr.open('GET', 'equipos.json', true);
-	
-	xhr.onload = function () {
-		if (this.status === 200) {
-			const equipos = JSON.parse(this.responseText);
+	fetch('equipos.json')
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('No se pudieron cargar los equipos');
+			}
+			return response.json();
+		})
+		.then(equipos => {
 			llenarSelectConEquipos(equipos);
-		} else {
-			console.error('No se pudieron cargar los equipos');
-		}
-	};
-	
-	xhr.send();
+		})
+		.catch(error => {
+			console.error(error);
+		});
 }
 
 function llenarSelectConEquipos(equipos) {

@@ -2,18 +2,38 @@ let coleccionDiscos = [];
 
 document.addEventListener("DOMContentLoaded", obtenerDiscosDelJson);
 
+// CON XHR
+// function obtenerDiscosDelJson() {
+// 	let xhr = new XMLHttpRequest();
+// 	xhr.addEventListener("readystatechange", function () {
+// 		if (this.readyState === 4 && this.status === 200) {
+// 			let discosJson = JSON.parse(this.responseText);
+// 			coleccionDiscos = discosJson.map(disco => new Disco(disco.nombre, disco.grupo, disco.anno, disco.tipoMusica, disco.localizacion, disco.prestado));
+// 			alert('Discos cargados correctamente.');
+// 		}
+// 	});
+// 	xhr.open("GET", "discos.json", true);
+// 	xhr.send();
+// }
+
+// CON FETCH
 function obtenerDiscosDelJson() {
-	let xhr = new XMLHttpRequest();
-	xhr.addEventListener("readystatechange", function () {
-		if (this.readyState === 4 && this.status === 200) {
-			let discosJson = JSON.parse(this.responseText);
+	fetch('discos.json')
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Network response was not ok');
+			}
+			return response.json(); // Convierte la respuesta a JSON
+		})
+		.then(discosJson => {
 			coleccionDiscos = discosJson.map(disco => new Disco(disco.nombre, disco.grupo, disco.anno, disco.tipoMusica, disco.localizacion, disco.prestado));
 			alert('Discos cargados correctamente.');
-		}
-	});
-	xhr.open("GET", "discos.json", true);
-	xhr.send();
+		})
+		.catch(error => {
+			console.error('Fetch error:', error);
+		});
 }
+
 
 
 function mostrarTablaDiscos() {

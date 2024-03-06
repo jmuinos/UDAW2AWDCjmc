@@ -9,25 +9,79 @@ document.addEventListener('DOMContentLoaded', () => {
 	btnReiniciar.addEventListener('click', reiniciar);
 	document.getElementById("usuario-aciertos").textContent = aciertos;
 })
+// CON XHR
+// document.addEventListener('DOMContentLoaded', function () {
+// 	let xhr = new XMLHttpRequest();
+// 	xhr.open('GET', 'https://randomuser.me/api/?results=12&format=XML', true);
+// 	xhr.onreadystatechange = function () {
+// 		if (xhr.readyState === 4 && xhr.status === 200) {
+// 			let xmlDoc = xhr.responseXML;
+// 			users = xmlDoc.getElementsByTagName('results');
+// 		}
+// 	};
+// 	xhr.send();
+// 	barajar();
+// 	generarCartas();
+// });
 
-$(document).ready(function() {
-	btnReiniciar.addEventListener('click', reiniciar);
-	$("#usuario-aciertos").text(aciertos);
-	
-	$.ajax({
-		url: 'https://randomuser.me/api/?results=12',
-		dataType: 'json',
-		success: function(data) {
-			users = data.results; // Ajustamos para usar el campo 'results' del JSON
+
+//CON XHR
+// function generarCartas() {
+// 	let fila; // fila actual
+// 	for (let i = 0; i < users.length; i++) {
+// 		// Crea una nueva fila cada 4 cartas
+// 		if (i % 4 === 0) {
+// 			fila = document.createElement("div");
+// 			fila.classList.add("row", "align-items-center", "m-0", "p-0", "row-cols-4", "h-auto");
+// 			tablero.appendChild(fila);
+// 		}
+//
+// 		let user = users[i];
+// 		let imagenUrl = user.getElementsByTagName('large')[0].textContent;
+// 		let email = user.getElementsByTagName('email')[0].textContent;
+// 		let nombre = user.getElementsByTagName('name')[0].textContent;
+//
+// 		const cardElement = document.createElement("div");
+// 		cardElement.classList.add("col-3-sm", "carta", "d-flex", "justify-content-center", "align-content-center");
+//
+// 		let divFrente = document.createElement('div');
+// 		divFrente.classList.add("frente", "w-100", "h-100");
+//
+// 		let userImagen = document.createElement('img');
+// 		userImagen.src = imagenUrl;
+// 		userImagen.alt = 'User Image';
+// 		userImagen.title = email;
+// 		userImagen.classList.add("rounded", "d-flex", "h-100", "w-auto");
+//
+// 		let divReves = document.createElement('div');
+// 		divReves.className = 'reves';
+//
+// 		divFrente.appendChild(userImagen);
+// 		cardElement.appendChild(divReves);
+// 		cardElement.appendChild(divFrente);
+// 		cardElement.setAttribute("name", nombre);
+// 		fila.appendChild(cardElement);
+//
+// 		cardElement.addEventListener("click", ponerCartaBocaArriba);
+// 	}
+// }
+
+// CON FETCH
+document.addEventListener('DOMContentLoaded', function () {
+	fetch('https://randomuser.me/api/?results=12')
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Network response was not ok');
+			}
+			return response.json(); // Se convierte la respuesta a JSON
+		})
+		.then(data => {
+			users = data.results; // Se actualiza para usar el campo 'results' del JSON
 			barajar();
 			generarCartas();
-		},
-		error: function(error) {
-			console.error('Error fetching data:', error);
-		}
-	});
+		})
+		.catch(error => console.error('Fetch error:', error));
 });
-
 
 // CON FETCH
 function generarCartas() {

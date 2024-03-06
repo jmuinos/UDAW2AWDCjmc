@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Whois JSON API</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1>Información Whois API</h1>
+		<div>
+			<h3>¿Qué es?</h3>
+			<p style="width: 33%">
+				Esta API proporciona información detallada de WHOIS de nombres de dominio
+				e IPs, incluyendo fechas importantes, información del propietario y del contacto, nombres
+				de servidores, y detalles del registrador. Lo interesante de esta API es que ofrece los
+				datos tanto en formato XML como en JSON, lo que te da flexibilidad dependiendo de tus
+				necesidades de desarrollo. La API permite hasta 500 solicitudes gratuitas por mes sin
+				requerir una tarjeta de crédito.</p>
+		</div>
+		<div id="whoisInfo">
+			<h3>Datos obtenidos de la API:</h3>
+			<p>Dominio: <span id="dominio"></span></p>
+			<p>Fecha de creación: <span id="createdDate"></span></p>
+			<p>Fecha de expiración: <span id="expiresDate"></span></p>
+			<p>Organización: <span id="organization"></span></p>
+		</div>
+		
+		<script>
+			$(document).ready(function () {
+				let apiKey = "at_zfMC8z503BjtDtbjfnIxOw2zpEBEO";
+				let domainName = "google.com";
+				let urlApi = `https://www.whoisxmlapi.com/whoisserver/WhoisService?apiKey=${apiKey}&domainName=${domainName}&outputFormat=JSON`;
+				
+				$.getJSON(urlApi, function (response) {
+					let whoisRecord = response.WhoisRecord;
+					if (whoisRecord) {
+						$('#dominio').text(whoisRecord.domainName);
+						$('#createdDate').text(whoisRecord.createdDate);
+						$('#expiresDate').text(whoisRecord.expiresDate);
+						$('#organization').text(whoisRecord.registrant.organization);
+					} else {
+						$('#whoisInfo').text('No se pudo cargar la información Whois.');
+					}
+				}).fail(function () {
+					console.log("Error al cargar los datos Whois.");
+				});
+			});
+		</script>
+	</body>
+</html>

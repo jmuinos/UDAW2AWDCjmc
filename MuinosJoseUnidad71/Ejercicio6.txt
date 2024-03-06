@@ -1,0 +1,1 @@
+Los fetch ya están realizados en los respectivos ejercicios (la obtención por xhr está comentada)

@@ -1,0 +1,5 @@
+[
+  { "texto": "Hacer la colada", "realizada": false },
+  { "texto": "Preparar la cena", "realizada": false },
+  { "texto": "Tirar la basura", "realizada": false }
+]

@@ -8,17 +8,36 @@ class Cliente {
 	}
 }
 
+// CON XHR
+// function cargarClientes() {
+// 	let xhr = new XMLHttpRequest();
+// 	xhr.open("GET", "clientes.json", true);
+// 	xhr.onreadystatechange = function() {
+// 		if (this.readyState === 4 && this.status === 200) {
+// 			let datos = JSON.parse(this.responseText);
+// 			clientes = datos.map(d => new Cliente(d.nombre, d.localidad, d.cuota));
+// 			console.log("Clientes cargados con éxito.");
+// 		}
+// 	};
+// 	xhr.send();
+// }
+
+// CON FETCH
 function cargarClientes() {
-	let xhr = new XMLHttpRequest();
-	xhr.open("GET", "clientes.json", true);
-	xhr.onreadystatechange = function() {
-		if (this.readyState === 4 && this.status === 200) {
-			let datos = JSON.parse(this.responseText);
+	fetch('clientes.json')
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Network response was not ok');
+			}
+			return response.json(); // Convierte la respuesta a JSON
+		})
+		.then(datos => {
 			clientes = datos.map(d => new Cliente(d.nombre, d.localidad, d.cuota));
 			console.log("Clientes cargados con éxito.");
-		}
-	};
-	xhr.send();
+		})
+		.catch(error => {
+			console.error('Fetch error:', error);
+		});
 }
 
 // Llamar a cargarClientes al iniciar la aplicación

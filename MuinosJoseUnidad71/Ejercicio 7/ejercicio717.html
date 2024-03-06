@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Pilotos de Fórmula 1</title>
+		<style>
+			.destacado {
+				color: red;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<label for="ordenarPor"></label><select id="ordenarPor">
+			<option value="nombre">Nombre</option>
+			<option value="equipo">Equipo</option>
+		</select>
+		<label for="filtroNacionalidad"></label><select id="filtroNacionalidad">
+			<option value="todos">Todos</option>
+			<!-- Opciones de nacionalidad se añadirán dinámicamente -->
+		</select>
+		<button onclick="cargarPilotos()">Cargar Pilotos</button>
+		<div id="listaPilotos"></div>
+		<div id="controlesPaginacion"></div>
+		
+		<script src="ejercicio717.js"></script>
+	</body>
+</html>
